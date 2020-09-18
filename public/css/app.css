@@ -1,5 +1,10 @@
-body {
-  background-color: teal;
+h2 {
+  color: #002D75;
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 2rem;
 }
 
 header {
@@ -13,7 +18,54 @@ header nav ul {
   list-style-type: none;
 }
 
+header nav ul a {
+  text-decoration: none;
+  color: #111;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+header nav ul li {
+  padding: 0 15px;
+}
+
+main {
+  padding: 0 10%;
+}
+
 main img {
   max-width: 300px;
+}
+
+footer {
+  color: #555;
+  margin-top: 20px;
+  padding: 0 10%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+footer img {
+  max-width: 300px;
+}
+
+footer .credit {
+  max-width: 25%;
+}
+
+footer ul {
+  list-style-type: none;
+  -webkit-margin-before: 0;
+          margin-block-start: 0;
+  -webkit-margin-after: 0;
+          margin-block-end: 0;
+  -webkit-padding-start: 0;
+          padding-inline-start: 0;
+}
+
+footer ul li {
+  padding-bottom: 15px;
+  font-size: 1.5rem;
 }
 

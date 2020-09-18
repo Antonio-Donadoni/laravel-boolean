@@ -5,7 +5,7 @@
 
 
 <div class="">
-  <h2>LUNGHE</h2>
+  <h2>LE LUNGHE</h2>
   @foreach ($data as $d)
 
     @if ( $d['tipo'] == "lunga")
@@ -16,7 +16,7 @@
   @endforeach
 </div>
 <div class="">
-  <h2>CORTE</h2>
+  <h2>LE CORTE</h2>
   @foreach ($data as $d)
 
     @if ( $d['tipo'] == "corta")
@@ -27,7 +27,7 @@
   @endforeach
 </div>
 <div class="">
-  <h2>CORTISSIME</h2>
+  <h2>LE CORTISSIME</h2>
   @foreach ($data as $d)
 
     @if ( $d['tipo'] == "cortissima")
