@@ -13,3 +13,7 @@ header nav ul {
   list-style-type: none;
 }
 
+main img {
+  max-width: 300px;
+}
+
