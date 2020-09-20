@@ -2,41 +2,42 @@
 
 @section('content')
 <main>
+    <div class="container">
+      <h2>LE LUNGHE</h2>
+      @foreach ($data as $d)
 
+        @if ( $d['tipo'] == "lunga")
 
-<div class="">
-  <h2>LE LUNGHE</h2>
-  @foreach ($data as $d)
+          <a href="#"><img src="{{$d['src']}}" alt="{{ $d['titolo']}}"> </a>
 
-    @if ( $d['tipo'] == "lunga")
+        @endif
+      @endforeach
+    </div>
 
-      <img src="{{$d['src']}}" alt="{{ $d['titolo']}}">
+    <div class="container">
+      <h2>LE CORTE</h2>
+      @foreach ($data as $d)
 
-    @endif
-  @endforeach
-</div>
-<div class="">
-  <h2>LE CORTE</h2>
-  @foreach ($data as $d)
+        @if ( $d['tipo'] == "corta")
 
-    @if ( $d['tipo'] == "corta")
+          <img src="{{$d['src']}}" alt="{{ $d['titolo']}}">
 
-      <img src="{{$d['src']}}" alt="{{ $d['titolo']}}">
+        @endif
+      @endforeach
+    </div>
 
-    @endif
-  @endforeach
-</div>
-<div class="">
-  <h2>LE CORTISSIME</h2>
-  @foreach ($data as $d)
+    <div class="container">
+      <h2>LE CORTISSIME</h2>
+      @foreach ($data as $d)
 
-    @if ( $d['tipo'] == "cortissima")
+        @if ( $d['tipo'] == "cortissima")
 
-      <img src="{{$d['src']}}" alt="{{ $d['titolo']}}">
+          <img src="{{$d['src']}}" alt="{{ $d['titolo']}}">
 
-    @endif
-  @endforeach
-</div>
+        @endif
+      @endforeach
+    </div>
+
 
 </main>
 
