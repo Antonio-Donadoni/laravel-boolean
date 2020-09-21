@@ -20,7 +20,7 @@
 
         @if ( $d['tipo'] == "corta")
 
-          <img src="{{$d['src']}}" alt="{{ $d['titolo']}}">
+          <a href="#"><img src="{{$d['src']}}" alt="{{ $d['titolo']}}"> </a>
 
         @endif
       @endforeach
@@ -32,7 +32,7 @@
 
         @if ( $d['tipo'] == "cortissima")
 
-          <img src="{{$d['src']}}" alt="{{ $d['titolo']}}">
+          <a href="#"><img src="{{$d['src']}}" alt="{{ $d['titolo']}}"> </a>
 
         @endif
       @endforeach

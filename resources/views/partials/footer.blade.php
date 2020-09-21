@@ -1,7 +1,7 @@
 <footer>
 <div class="credit">
   <img src="{{ asset('imgs/marchio-sito-test.png') }}" alt="">
-  <p>Ragione sociale: LaMolisana S.P.A. Sede legale:Contrada Colle delleApi, 100/A 86100 - Campobasso (CB) Pec:lamolisana@pec.it Tel: +39 0874 4981 Fax: +39 0874629584 info@lamolisana.it(per segnalazionidegli utenti) commerciale@lamolisana.itexport@lamolisana.it numero verde800818081 telefono3801292455</p>
+  <p>Ragione sociale: LaMolisana S.P.A. Sede legale:Contrada Colle delleApi, 100/A 86100 - Campobasso (CB) Pec:lamolisana@pec.it Tel: +39 0874 4981 Fax: +39 0874629584 info@lamolisana.it(per segnalazionidegli utenti) commerciale@lamolisana.itexport@lamolisana.it numero verde 800818081 telefono 3801292455</p>
 </div>
 <div class="">
   <h3>PASTIFICIO</h3>
