@@ -1,7 +1,13 @@
-* {
+@import url(https://fonts.googleapis.com/css2?family=Teko:wght@400;
+
+500;600&display=swap);* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
 }
 
 h2 {
@@ -9,11 +15,15 @@ h2 {
   font-size: 2.5rem;
   padding-bottom: 20px;
   padding-top: 20px;
+  text-shadow: 1px 1px #000;
+  font-family: "Teko", sans-serif;
 }
 
 h3 {
+  color: #002D75;
   font-size: 2rem;
   padding-bottom: 20px;
+  font-family: "Teko", sans-serif;
 }
 
 header {
@@ -32,6 +42,7 @@ header nav ul a {
   color: #111;
   font-size: 2rem;
   font-weight: bold;
+  font-family: "Teko", sans-serif;
 }
 
 header nav ul li {
@@ -54,15 +65,16 @@ main:before {
   background-image: url("/../imgs/fondo-pag-speciali.jpg");
   width: 100%;
   height: 100%;
-  -moz-filter: opacity(0.5);
-  -o-filter: opacity(0.5);
-  -ms-filter: opacity(0.5);
-  filter: opacity(0.5);
+  -moz-filter: opacity(0.3);
+  -o-filter: opacity(0.3);
+  -ms-filter: opacity(0.3);
+  filter: opacity(0.3);
 }
 
 main img {
   max-width: 300px;
-  padding: 10px;
+  margin: 10px;
+  box-shadow: 5px 5px 10px grey;
 }
 
 footer {
@@ -91,6 +103,6 @@ footer ul {
 
 footer ul li {
   padding-bottom: 15px;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 

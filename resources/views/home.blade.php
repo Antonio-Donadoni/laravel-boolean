@@ -8,7 +8,7 @@
 
         @if ( $d['tipo'] == "lunga")
 
-          <a href="#"><img src="{{$d['src']}}" alt="{{ $d['titolo']}}"> </a>
+          <a href="#"><img src="{{$d['src']}}" alt="{{ $d['titolo']}}"></a>
 
         @endif
       @endforeach
@@ -20,7 +20,7 @@
 
         @if ( $d['tipo'] == "corta")
 
-          <a href="#"><img src="{{$d['src']}}" alt="{{ $d['titolo']}}"> </a>
+          <a href="#"><img src="{{$d['src']}}" alt="{{ $d['titolo']}}"></a>
 
         @endif
       @endforeach
@@ -32,7 +32,7 @@
 
         @if ( $d['tipo'] == "cortissima")
 
-          <a href="#"><img src="{{$d['src']}}" alt="{{ $d['titolo']}}"> </a>
+          <a href="#"><img src="{{$d['src']}}" alt="{{ $d['titolo']}}"></a>
 
         @endif
       @endforeach
